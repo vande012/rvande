@@ -31,7 +31,7 @@ const ContactMe = (props: Props) => {
 
         <div className='flex flex-col space-y-10'>
             <h4 className='text-4xl font-semibold text-center'>
-                I can help{" "}
+                I've got just what you need.{" "}
                 <span className='underline decoration-[#08ff1c]/50'>Lets do this.</span>
             </h4>
             
