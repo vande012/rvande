@@ -1,12 +1,11 @@
-export interface SanityBody extends SanityBody {
-    _createdAt:string;
+interface SanityBody {
+    _createdAt: string;
     _id: string;
     _rev: string;
     _updatedAt: string;
 }
-
 export interface Image extends SanityBody {
-    _type: "social";
+    _type: "image";
     asset: {
         _ref: string;
         _type: "reference";
@@ -66,7 +65,6 @@ export interface Experience extends SanityBody {
     points: string[];
     technologies: Technology[];
 }
-
 export interface Social extends SanityBody {
     _type: "social";
     title: string;
